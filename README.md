@@ -24,7 +24,12 @@ https://github.com/Laguting/TTV_TestTV/assets/129570700/33fdcddb-43e4-4444-ad92-
 *Link to Gdrive (Demo Video)*
 https://drive.google.com/drive/folders/1E2rX6e6-cjjMYZOwk7JQCSMtHYMJQ3jB?usp=sharing
 
-## How to run in git bash ?
+## How to run in git bash 🚀?
+> git clone https://github.com/Laguting/TTV_TestTV.git
+
+> cd TTV_TestTV/
+
+> python TTV
 # INSTALLATIONS
 # CREDITS
 ## CONTACTS
