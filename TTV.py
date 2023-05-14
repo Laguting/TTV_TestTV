@@ -28,12 +28,16 @@ if ask_usr.upper() == "Y":
     class TV():
     # Channel, Volume, and Power is the parameters- default of the TV
         def __init__(self, channel, volume, power):
-    # Set up the power and use boolean where: off = false and on = true
             self.channel = channel
             self.volume = volume
             self.power = power
+    # Set up the power and use boolean where: off = false and on = true
     # Power on
+        def power_on(self):
+            self.power = True
     # Power off
+        def power_off(self):
+            self.power = False
     # Return the channel
     # Set a new channel
     # Return volume
