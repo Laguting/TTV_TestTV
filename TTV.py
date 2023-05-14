@@ -25,8 +25,13 @@ if ask_usr.upper() == "Y":
     print("⬜"* 88)
     print(colored(intro_brand.renderText("AETH3R"), "cyan"))
     # Create class for TV
+    class TV():
     # Channel, Volume, and Power is the parameters- default of the TV
+        def __init__(self, channel, volume, power):
     # Set up the power and use boolean where: off = false and on = true
+            self.channel = channel
+            self.volume = volume
+            self.power = power
     # Power on
     # Power off
     # Return the channel
