@@ -53,8 +53,12 @@ if ask_usr.upper() == "Y":
             if self.power_on and 1 <= new_volume <= 7:
                 self.volume = new_volume
     # Change Channels
-    # Channel increases by 1
-    # Channel decreases by 1
+        def channels_up(self):# Channel increases by 1
+            if self.power_on and self.channel < 120:
+                self.channel + 1
+        def channels_up(self):# Channel decreases by 1
+            if self.power_on and self.channel > 1:
+                self.channel - 1
     # Change Volume
     # Volume increases by 1
     # Volume decreases by 1
