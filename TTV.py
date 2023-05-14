@@ -46,7 +46,12 @@ if ask_usr.upper() == "Y":
             if self.power_on and 1 <= new_channel <= 120:
                 self.channel = new_channel
     # Return volume
+        def get_volume(self):
+            return self.volume
     # Set a new volume
+        def set_volume(self, new_volume):
+            if self.power_on and 1 <= new_volume <= 7:
+                self.volume = new_volume
     # Change Channels
     # Channel increases by 1
     # Channel decreases by 1
@@ -56,8 +61,9 @@ if ask_usr.upper() == "Y":
     
     #Test TV driver
     # Assign TV 1 and TV 2' attributes (channel and volume)
-    tv_1 = TV(30)
+    tv_1 = TV(30,0,True)
+    tv_1.set_volume(3)
     # Display the results
-    print("The TV 1's channel is ", tv_1.get_channel())
+    print("The TV 1's channel is ", tv_1.get_channel(), " and volume is ", tv_1.get_volume())
     # Close the TV
 
