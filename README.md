@@ -30,7 +30,10 @@ https://drive.google.com/drive/folders/1E2rX6e6-cjjMYZOwk7JQCSMtHYMJQ3jB?usp=sha
 > cd TTV_TestTV/
 
 > python TTV
+
 # INSTALLATIONS
+- **This program used three installations namely Pyfiglet, Termcolor, and Tqdm. Install it by typing the following in the terminal.**
+> pip install pyfiglet, termcolor, and tqdm
 # CREDITS
 ## CONTACTS
 # 
