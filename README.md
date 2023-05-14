@@ -12,6 +12,17 @@ https://github.com/Laguting/TTV_TestTV/assets/129570700/33fdcddb-43e4-4444-ad92-
 - Has a **While loop** for the modifications of the channel and volume.
 - Uses **pyfiglet**, **termcolor**, and **tqdm**.
 ## How to run in IDE 👩🏻‍💻?
+1. Copy the code to your preffered IDE.
+2. Create the text file and leave it blank.
+3. Install the **pyfiglet**, **termcolor**, and **tqdm**.
+4. Run the program.
+
+*Sample Picture*
+
+![TTV (1)](https://github.com/Laguting/TTV_TestTV/assets/129570700/5cc1df4a-26fb-498c-b1a9-b833cb1aa8e9)
+
+*Link to Gdrive (Demo Video)*
+https://drive.google.com/drive/folders/1E2rX6e6-cjjMYZOwk7JQCSMtHYMJQ3jB?usp=sharing
 
 ## How to run in git bash ?
 # INSTALLATIONS
