@@ -5,19 +5,25 @@
 # tv1's channel is 30 and volume level is 3
 # tv2's channel is 3 and volume level is 2
 
-# Turn om the  TV
+print()
 print("⬜"* 88)
 user_name = input("\n\n\33[1m\33[33mInput your name here ✍️  :\33[0m ")
 ask_usr = input("\n\33[1m\33[33mHi " + str(user_name) + "\33[1m\33[33m, would you like to turn your TV on 🤔 ? Enter 'Y' if yes and 'N' if no: \33[0m")
-print(ask_usr.upper)
-if ask_usr.upper == "Y":
+if ask_usr.upper() == "Y":
+# Loading bar
+    print()
+    from tqdm import tqdm 
+    import time
+    for i in tqdm (range (100), desc="Opening...\U0001F973"):
+        time.sleep(0.05)
+        pass
 # Intro to the brand of the TV
     from pyfiglet import Figlet
     from termcolor import colored
     intro_brand = Figlet( font = "doh", justify = "right")
     print()
     print("⬜"* 88)
-    print(colored(intro_brand.renderText("AETHER"), "cyan"))
+    print(colored(intro_brand.renderText("AETH3R"), "cyan"))
     # Create class for TV
     # Channel, Volume, and Power is the parameters- default of the TV
     # Set up the power and use boolean where: off = false and on = true
@@ -37,5 +43,4 @@ if ask_usr.upper == "Y":
     # Display the results
 
     # Close the TV
-else: 
-    quit
+
