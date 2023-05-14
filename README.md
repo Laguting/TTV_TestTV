@@ -42,4 +42,4 @@ https://drive.google.com/drive/folders/1E2rX6e6-cjjMYZOwk7JQCSMtHYMJQ3jB?usp=sha
 - *Number*: (TM) +63 926 395 2915
 - *Gmail*: lagutingmariconjaneg@gmail.com
 
-# 
+# ε(´｡•᎑•`)っ 💕
