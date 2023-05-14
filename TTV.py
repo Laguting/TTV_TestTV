@@ -127,3 +127,8 @@ if ask_usr.upper() == "Y":
             print("\33[1m\33[3m                                                                                     OFF\33[0m\n")
             break
     # Close the TV
+else:
+    tv_exit = Figlet( font = "slant", justify = "right")
+    print ()
+    print(colored(tv_exit.renderText("                               AETH3R.........."), "red"))
+    print("\33[1m\33[3m                                                                                     OFF\33[0m\n")
