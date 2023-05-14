@@ -14,8 +14,9 @@ https://github.com/Laguting/TTV_TestTV/assets/129570700/33fdcddb-43e4-4444-ad92-
 ## How to run in IDE 👩🏻‍💻?
 1. Copy the code to your preffered IDE.
 2. Create the text file and leave it blank.
-3. Install the **pyfiglet**, **termcolor**, and **tqdm**.
-4. Run the program.
+3. Has **Exception handling** specifically *Value Error*.
+4. Install the **pyfiglet**, **termcolor**, and **tqdm**.
+5. Run the program.
 
 *Sample Picture*
 
