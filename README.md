@@ -7,16 +7,19 @@ https://github.com/Laguting/TTV_TestTV/assets/129570700/33fdcddb-43e4-4444-ad92-
 *UML*
 
 ![TTV_UML](https://github.com/Laguting/TTV_TestTV/assets/129570700/8175bef9-089e-4ca2-a21d-a63dd05f2511)
+- It has two python file, where **TV** holds the main program and the other **TTV (Test TV)** contains the commands to call the functions in the main program.
 - Used **If and else statement** for the initialization of the TV.
 - Has **Loading bar** feature.
 - Has a **While loop** for the modifications of the channel and volume.
 - Uses **pyfiglet**, **termcolor**, and **tqdm**.
 ## How to run in IDE 👩🏻‍💻?
 1. Copy the code to your preffered IDE.
-2. Create the text file and leave it blank.
-3. Has **Exception handling** specifically *Value Error*.
-4. Install the **pyfiglet**, **termcolor**, and **tqdm**.
-5. Run the program.
+2. Create two python file, name it TV and TTV.
+   - TV will hold the main program given in the UML
+   - TTV will call the main program contained by TV
+4. Has **Exception handling** specifically *Value Error*.
+5. Install the **pyfiglet**, **termcolor**, and **tqdm**.
+6. Run the program.
 
 *Sample Picture*
 
