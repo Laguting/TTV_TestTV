@@ -11,14 +11,14 @@ https://github.com/Laguting/TTV_TestTV/assets/129570700/33fdcddb-43e4-4444-ad92-
 - Used **If and else statement** for the initialization of the TV.
 - Has **Loading bar** feature.
 - Has a **While loop** for the modifications of the channel and volume.
-- Uses **pyfiglet**, **termcolor**, and **tqdm**.
+- Uses **pyfiglet**, **termcolor**, **tqdm**, and **TV** *(this installation is only for TTV file)*.
 ## How to run in IDE 👩🏻‍💻?
 1. Copy the code to your preffered IDE.
 2. Create two python file, name it TV and TTV.
    - TV will hold the main program given in the UML
    - TTV will call the main program contained by TV
 4. Has **Exception handling** specifically *Value Error*.
-5. Install the **pyfiglet**, **termcolor**, and **tqdm**.
+5. Install the **pyfiglet**, **termcolor**, **tqdm**, and **TV** *(this installation is only for TTV file)*.
 6. Run the program.
 
 *Sample Picture*
@@ -38,6 +38,8 @@ https://drive.google.com/drive/folders/1E2rX6e6-cjjMYZOwk7JQCSMtHYMJQ3jB?usp=sha
 # INSTALLATIONS 📥
 - **This program used three installations namely Pyfiglet, Termcolor, and Tqdm. Install it by typing the following in the terminal.**
 > pip install pyfiglet, termcolor, and tqdm
+- **Do this only fot the TTV file, so that the main program can be imported**
+> pip install TV
 
 # CREDITS 👩
 - Developed by Maricon Jane G. Laguting from BSCpE 1-4
